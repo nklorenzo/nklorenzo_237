@@ -1,0 +1,121 @@
+```html
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-Nous - Christ Store</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #0d3b66;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 2em;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #145374;
+            padding: 15px 0;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #c0d6df;
+        }
+        main {
+            padding: 20px;
+            max-width: 700px;
+            margin: auto;
+            text-align: center;
+        }
+        form {
+            background-color: #e4f1fe;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1em;
+        }
+        input, textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            font-size: 1em;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+        }
+        input:focus, textarea:focus {
+            border-color: #0d3b66;
+            outline: none;
+        }
+        button {
+            background-color: #0d3b66;
+            color: white;
+            font-size: 1em;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #145374;
+        }
+        footer {
+            background-color: #0d3b66;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Contactez-Nous
+    </header>
+    <nav>
+        <a href="https://christstore.com/accueil">Accueil</a>
+        <a href="https://christstore.com/nos-produits">Nos Produits</a>
+        <a href="https://christstore.com/a-propos">À Propos</a>
+        <a href="https://christstore.com/contact">Contact</a>
+    </nav>
+    <main>
+        <form action="https://christstore.com/envoyer-message" method="post">
+            <label for="nom">Votre nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            
+            <label for="email">Votre email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Votre message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
+    <footer>
+        © 2023 Christ Store. Tous droits réservés.
+    </footer>
+</body>
+</html>
+```
